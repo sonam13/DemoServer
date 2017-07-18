@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoServerController {
 	@RequestMapping(value = "", method = RequestMethod.GET)
 	public @ResponseBody String getMsg() {
-		return "Finally load balanced 8011";
+		return "second example";
 	}
 }
